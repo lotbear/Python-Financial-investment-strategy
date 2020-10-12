@@ -6,6 +6,4 @@
 
 目前已上传《利用京东数科EMAI(挖掘机生产活跃度指数)制定基建投资策略》     
 
-https://zhuanlan.zhihu.com/p/264747987      
-
-<img src="https://pic2.zhimg.com/v2-d5144c74a33bd22037e69465950aefdd_r.jpg" align="left">
+知乎报告：   https://zhuanlan.zhihu.com/p/264747987      
