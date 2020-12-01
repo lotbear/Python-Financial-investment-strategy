@@ -12,6 +12,6 @@
 知乎专栏：超预测时代   
 https://www.zhihu.com/column/c_189274975     
 
-![Image text](https://pic1.zhimg.com/v2-abf2ff83fec4c191288ae121388b5bdc_r.jpg)     
+![Image text](https://pic4.zhimg.com/v2-5a3675d573662c3488276c69e5b0c447_r.jpg)     
 
-![Image text](https://pic4.zhimg.com/v2-3eb7c12d8f63cd3602e5db02134fd6d7_r.jpg)
+![Image text](https://pic1.zhimg.com/v2-abf2ff83fec4c191288ae121388b5bdc_r.jpg)
