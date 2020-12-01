@@ -10,4 +10,8 @@
 《金融风控--德国信贷风控数据建模（机器学习）》
 
 知乎专栏：超预测时代   
-https://www.zhihu.com/column/c_189274975  
+https://www.zhihu.com/column/c_189274975     
+
+![Image text](https://pic1.zhimg.com/v2-abf2ff83fec4c191288ae121388b5bdc_r.jpg)     
+
+![Image text](https://pic4.zhimg.com/v2-3eb7c12d8f63cd3602e5db02134fd6d7_r.jpg)
