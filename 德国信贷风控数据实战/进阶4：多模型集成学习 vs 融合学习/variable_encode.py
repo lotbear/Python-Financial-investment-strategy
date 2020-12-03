@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-第5章 变量编码
-变量编码:one-hot编码、标签编码、自定义字典映射、woe编码
+变量编码:
+1. one-hot编码
+2. 标签编码
+3. 自定义字典映射
+4. woe编码
 """
 import os
 import sys
