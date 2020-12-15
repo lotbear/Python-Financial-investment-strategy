@@ -8,11 +8,8 @@
 《利用京东数科EMAI(挖掘机活跃)指数 制定基建投资策略》   
 《实证：投资者恐慌指数 VIX 对美国标普500指数走势的影响》      
 《金融风控--德国信贷风控数据建模（机器学习）》    
-《美国 Lending Club 信贷风控建模（全流程实战））》
+《美国 Lending Club 信贷风控建模（全流程实战））》   
+《 Hadoop+Spark+IPython大数据架构实战 》  
 
 知乎专栏：超预测时代   
 https://www.zhihu.com/column/c_189274975     
-
-![决策树模型图示例](https://pic4.zhimg.com/v2-5a3675d573662c3488276c69e5b0c447_r.jpg)     
-
-![SVM模型图示例](https://pic1.zhimg.com/v2-abf2ff83fec4c191288ae121388b5bdc_r.jpg)     
