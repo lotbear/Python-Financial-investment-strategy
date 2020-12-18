@@ -13607,7 +13607,7 @@ productFeatures: 分解后产品矩阵 Y（ rank * n )<br>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>&lt;pyspark.mllib.recommendation.MatrixFactorizationModel object at 0x7fb21992ac88&gt;
+<pre>&lt;pyspark.mllib.recommendation.MatrixFactorizationModel object at 0x7efefc598c18&gt;
 </pre>
 </div>
 </div>
@@ -13658,11 +13658,11 @@ productFeatures: 分解后产品矩阵 Y（ rank * n )<br>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[Rating(user=101, product=4248, rating=9.031512007116719),
- Rating(user=101, product=53519, rating=8.620926647759001),
- Rating(user=101, product=8796, rating=8.173389929176253),
- Rating(user=101, product=3503, rating=8.076832181464251),
- Rating(user=101, product=82, rating=7.821522829461259)]</pre>
+<pre>[Rating(user=101, product=1354, rating=8.547775151630326),
+ Rating(user=101, product=61240, rating=7.0235667804659165),
+ Rating(user=101, product=116897, rating=6.848953777481393),
+ Rating(user=101, product=7587, rating=6.822385808483451),
+ Rating(user=101, product=2239, rating=6.800370072222392)]</pre>
 </div>
 
 </div>
@@ -13697,7 +13697,7 @@ productFeatures: 分解后产品矩阵 Y（ rank * n )<br>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>3.9594651469426294</pre>
+<pre>5.773527191827356</pre>
 </div>
 
 </div>
@@ -13709,7 +13709,7 @@ productFeatures: 分解后产品矩阵 Y（ rank * n )<br>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="&#24403;&#25105;&#20204;&#24819;&#20419;&#38144;&#26576;&#37096;&#30005;&#24433;&#26102;">&#24403;&#25105;&#20204;&#24819;&#20419;&#38144;&#26576;&#37096;&#30005;&#24433;&#26102;<a class="anchor-link" href="#&#24403;&#25105;&#20204;&#24819;&#20419;&#38144;&#26576;&#37096;&#30005;&#24433;&#26102;">&#182;</a></h4><h4><font color=red>rrecommendUsers</font>  函数可以帮我们找到对这部电影最感兴趣的用户，并进行排名</h4>
+<h4 id="&#24403;&#25105;&#20204;&#24819;&#20419;&#38144;&#26576;&#37096;&#30005;&#24433;&#26102;">&#24403;&#25105;&#20204;&#24819;&#20419;&#38144;&#26576;&#37096;&#30005;&#24433;&#26102;<a class="anchor-link" href="#&#24403;&#25105;&#20204;&#24819;&#20419;&#38144;&#26576;&#37096;&#30005;&#24433;&#26102;">&#182;</a></h4><h4><font color=red>recommendUsers</font>  函数可以帮我们找到对这部电影最感兴趣的用户，并进行排名</h4>
 
 </div>
 </div>
@@ -13738,11 +13738,11 @@ productFeatures: 分解后产品矩阵 Y（ rank * n )<br>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[Rating(user=12, product=110, rating=5.768860092451168),
- Rating(user=37, product=110, rating=5.723899755958972),
- Rating(user=53, product=110, rating=5.561212921631445),
- Rating(user=120, product=110, rating=5.529633065241293),
- Rating(user=276, product=110, rating=5.439751496394358)]</pre>
+<pre>[Rating(user=53, product=110, rating=6.977144521639186),
+ Rating(user=543, product=110, rating=5.598110428734583),
+ Rating(user=360, product=110, rating=5.594789849108189),
+ Rating(user=364, product=110, rating=5.5715959182777475),
+ Rating(user=337, product=110, rating=5.523103634928935)]</pre>
 </div>
 
 </div>
@@ -13941,16 +13941,24 @@ productFeatures: 分解后产品矩阵 Y（ rank * n )<br>
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3><font color=red>&gt;&gt;&gt; 为用户个性化推荐电影</h3>
+<h3 id="&#23545;-id=101-&#30340;&#29992;&#25143;&#65292;&#25512;&#33616;-10-&#37096;&#30005;&#24433;&#65292;&#24182;&#39044;&#27979;&#20854;&#23545;&#35813;&#30005;&#24433;&#30340;&#28385;&#24847;&#24230;-/-&#35780;&#20998;&#65292;&#25353;&#20174;&#39640;&#21040;&#20302;&#25490;&#24207;">&#23545; id=101 &#30340;&#29992;&#25143;&#65292;&#25512;&#33616; 10 &#37096;&#30005;&#24433;&#65292;&#24182;&#39044;&#27979;&#20854;&#23545;&#35813;&#30005;&#24433;&#30340;&#28385;&#24847;&#24230; / &#35780;&#20998;&#65292;&#25353;&#20174;&#39640;&#21040;&#20302;&#25490;&#24207;<a class="anchor-link" href="#&#23545;-id=101-&#30340;&#29992;&#25143;&#65292;&#25512;&#33616;-10-&#37096;&#30005;&#24433;&#65292;&#24182;&#39044;&#27979;&#20854;&#23545;&#35813;&#30005;&#24433;&#30340;&#28385;&#24847;&#24230;-/-&#35780;&#20998;&#65292;&#25353;&#20174;&#39640;&#21040;&#20302;&#25490;&#24207;">&#182;</a></h3>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">recommendP</span><span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">recommendProducts</span><span class="p">(</span><span class="mi">101</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span> 
-<span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">recommendP</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;对用户&quot;</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">+</span> \
-          <span class="s2">&quot;，推荐电影：&quot;</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">movieTitle</span><span class="p">[</span><span class="n">p</span><span class="p">[</span><span class="mi">1</span><span class="p">]])</span> <span class="o">+</span> \
-          <span class="s2">&quot;，</span><span class="se">\n</span><span class="s2">推荐评分：&quot;</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">p</span><span class="p">[</span><span class="mi">2</span><span class="p">]))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">RecommendMovies</span><span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">recommendProducts</span><span class="p">(</span><span class="mi">101</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span> 
+<span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">RecommendMovies</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;对用户&quot;</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">m</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">+</span> \
+          <span class="s2">&quot;，推荐电影：&quot;</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">movieTitle</span><span class="p">[</span><span class="n">m</span><span class="p">[</span><span class="mi">1</span><span class="p">]])</span> <span class="o">+</span> \
+          <span class="s2">&quot;，</span><span class="se">\n</span><span class="s2">推荐评分：&quot;</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">m</span><span class="p">[</span><span class="mi">2</span><span class="p">]))</span>
     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;=&#39;</span><span class="o">*</span><span class="mi">50</span><span class="p">)</span>
 </pre></div>
 
@@ -13968,20 +13976,101 @@ productFeatures: 分解后产品矩阵 Y（ rank * n )<br>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>对用户101，推荐电影：Josie and the Pussycats (2001)，
-推荐评分：9.031512007116719
+<pre>对用户101，推荐电影：Breaking the Waves (1996)，
+推荐评分：8.547775151630326
 ==================================================
-对用户101，推荐电影：Death Proof (2007)，
-推荐评分：8.620926647759001
+对用户101，推荐电影：Let the Right One In (Låt den rätte komma in) (2008)，
+推荐评分：7.0235667804659165
 ==================================================
-对用户101，推荐电影：&#34;Funny Thing Happened on the Way to the Forum，
-推荐评分：8.173389929176253
+对用户101，推荐电影：Wild Tales (2014)，
+推荐评分：6.848953777481393
 ==================================================
-对用户101，推荐电影：Solaris (Solyaris) (1972)，
-推荐评分：8.076832181464251
+对用户101，推荐电影：&#34;Samouraï，
+推荐评分：6.822385808483451
 ==================================================
-对用户101，推荐电影：Antonia&#39;s Line (Antonia) (1995)，
-推荐评分：7.821522829461259
+对用户101，推荐电影：Swept Away (Travolti da un insolito destino nell&#39;azzurro mare d&#39;Agosto) (1975)，
+推荐评分：6.800370072222392
+==================================================
+对用户101，推荐电影：Public Enemies (2009)，
+推荐评分：6.774216170666146
+==================================================
+对用户101，推荐电影：Inside Job (2010)，
+推荐评分：6.77358663650449
+==================================================
+对用户101，推荐电影：Deconstructing Harry (1997)，
+推荐评分：6.581445573845701
+==================================================
+对用户101，推荐电影：Split (2017)，
+推荐评分：6.49950209981287
+==================================================
+对用户101，推荐电影：Igby Goes Down (2002)，
+推荐评分：6.45149947417833
+==================================================
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3><font color=red>&gt;&gt;&gt; 为电影推广，寻找潜在用户</h3>
+<h3 id="&#23545;-id=202-&#30340;&#30005;&#24433;&#65292;&#23547;&#25214;-10-&#20301;&#21487;&#33021;&#24863;&#20852;&#36259;&#30340;&#29992;&#25143;&#65292;&#24182;&#39044;&#27979;&#29992;&#25143;&#23545;&#35813;&#30005;&#24433;&#30340;&#28385;&#24847;&#24230;-/-&#35780;&#20998;&#65292;&#25353;&#20174;&#39640;&#21040;&#20302;&#25490;&#24207;">&#23545; id=202 &#30340;&#30005;&#24433;&#65292;&#23547;&#25214; 10 &#20301;&#21487;&#33021;&#24863;&#20852;&#36259;&#30340;&#29992;&#25143;&#65292;&#24182;&#39044;&#27979;&#29992;&#25143;&#23545;&#35813;&#30005;&#24433;&#30340;&#28385;&#24847;&#24230; / &#35780;&#20998;&#65292;&#25353;&#20174;&#39640;&#21040;&#20302;&#25490;&#24207;<a class="anchor-link" href="#&#23545;-id=202-&#30340;&#30005;&#24433;&#65292;&#23547;&#25214;-10-&#20301;&#21487;&#33021;&#24863;&#20852;&#36259;&#30340;&#29992;&#25143;&#65292;&#24182;&#39044;&#27979;&#29992;&#25143;&#23545;&#35813;&#30005;&#24433;&#30340;&#28385;&#24847;&#24230;-/-&#35780;&#20998;&#65292;&#25353;&#20174;&#39640;&#21040;&#20302;&#25490;&#24207;">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">RecommendUser</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">recommendUsers</span><span class="p">(</span><span class="mi">202</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span> 
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;针对电影id:202 , 电影名:</span><span class="si">{0}</span><span class="s2">推荐下列用户id:&quot;</span><span class="o">.</span> \
+        <span class="nb">format</span><span class="p">(</span><span class="n">movieTitle</span><span class="p">[</span><span class="mi">202</span><span class="p">]))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">u</span> <span class="ow">in</span> <span class="n">RecommendUser</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;针对用户id </span><span class="si">{0}</span><span class="s2">  推荐评分 </span><span class="si">{1}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span> <span class="n">u</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">u</span><span class="p">[</span><span class="mi">2</span><span class="p">]))</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;=&#39;</span><span class="o">*</span><span class="mi">50</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>针对电影id:202 , 电影名:Total Eclipse (1995)推荐下列用户id:
+ 
+针对用户id 301  推荐评分 4.546316847444679
+==================================================
+针对用户id 393  推荐评分 4.419571323079257
+==================================================
+针对用户id 138  推荐评分 4.243625032404518
+==================================================
+针对用户id 295  推荐评分 4.189083167022634
+==================================================
+针对用户id 467  推荐评分 4.153077030931658
+==================================================
+针对用户id 224  推荐评分 4.0035934962164585
+==================================================
+针对用户id 403  推荐评分 3.9444925188114652
+==================================================
+针对用户id 548  推荐评分 3.8390845637413804
+==================================================
+针对用户id 530  推荐评分 3.8335214407387648
+==================================================
+针对用户id 572  推荐评分 3.8176448025680476
 ==================================================
 </pre>
 </div>
