@@ -20,7 +20,11 @@
 
 7.《网页分类引擎-- Kaggle 网页分类推荐项目》     
 
-8.《流程式机器学习二元分类--基于 Spark ML Pipeline》     
+8.《流程式机器学习二元分类--基于 Spark ML Pipeline》    
+
+9.《流程式机器学习多元分类--基于 Spark ML Pipeline》    
+
+10.《共享单车流量预测系统--基于 Spark ML Pipeline》   
 
 知乎专栏：超预测时代   
 https://www.zhihu.com/column/c_189274975     
