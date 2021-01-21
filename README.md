@@ -24,7 +24,9 @@
 
 9.《流程式机器学习多元分类--基于 Spark ML Pipeline》    
 
-10.《共享单车流量预测系统--基于 Spark ML Pipeline》   
+10.《共享单车流量预测系统--基于 Spark ML Pipeline》    
+
+11.《Spark + MySQL + Python 数据库应用》
 
 知乎专栏：超预测时代   
 https://www.zhihu.com/column/c_189274975     
