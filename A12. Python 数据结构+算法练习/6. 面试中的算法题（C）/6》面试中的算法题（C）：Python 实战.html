@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>5》面试中的算法题（B）：Python 实战</title>
+<title>6》面试中的算法题（C）：Python 实战</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13077,7 +13077,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Python-&#22522;&#30784;&#31639;&#27861;&#32451;&#20064;&#65288;Hadoop-+-Spark-+-MySQL-+-Python&#65289;">Python &#22522;&#30784;&#31639;&#27861;&#32451;&#20064;&#65288;Hadoop + Spark + MySQL + Python&#65289;<a class="anchor-link" href="#Python-&#22522;&#30784;&#31639;&#27861;&#32451;&#20064;&#65288;Hadoop-+-Spark-+-MySQL-+-Python&#65289;">&#182;</a></h3><h2 id="5-&gt;&gt;&gt;-&#38754;&#35797;&#20013;&#30340;&#31639;&#27861;&#39064;&#65288;B&#65289;&#65306;Python-&#23454;&#25112;"><center>5 &gt;&gt;&gt; &#38754;&#35797;&#20013;&#30340;&#31639;&#27861;&#39064;&#65288;B&#65289;&#65306;Python &#23454;&#25112;</center><a class="anchor-link" href="#5-&gt;&gt;&gt;-&#38754;&#35797;&#20013;&#30340;&#31639;&#27861;&#39064;&#65288;B&#65289;&#65306;Python-&#23454;&#25112;">&#182;</a></h2><h3 id="&#31639;&#27861;&#39564;&#35777;&#65306;&#24352;&#21531;&#39062;--&#65307;-&#25253;&#21578;&#26085;&#26399;&#65306;2021.1.27"><center>&#31639;&#27861;&#39564;&#35777;&#65306;&#24352;&#21531;&#39062;  &#65307; &#25253;&#21578;&#26085;&#26399;&#65306;2021.1.27</center><a class="anchor-link" href="#&#31639;&#27861;&#39564;&#35777;&#65306;&#24352;&#21531;&#39062;--&#65307;-&#25253;&#21578;&#26085;&#26399;&#65306;2021.1.27">&#182;</a></h3><p><font color=blue><center>作者邮箱：zhang.jun.ying@outlook.com</center></font></p>
+<h3 id="Python-&#22522;&#30784;&#31639;&#27861;&#32451;&#20064;&#65288;Hadoop-+-Spark-+-MySQL-+-Python&#65289;">Python &#22522;&#30784;&#31639;&#27861;&#32451;&#20064;&#65288;Hadoop + Spark + MySQL + Python&#65289;<a class="anchor-link" href="#Python-&#22522;&#30784;&#31639;&#27861;&#32451;&#20064;&#65288;Hadoop-+-Spark-+-MySQL-+-Python&#65289;">&#182;</a></h3><h2 id="6-&gt;&gt;&gt;-&#38754;&#35797;&#20013;&#30340;&#31639;&#27861;&#39064;&#65288;C&#65289;&#65306;Python-&#23454;&#25112;"><center>6 &gt;&gt;&gt; &#38754;&#35797;&#20013;&#30340;&#31639;&#27861;&#39064;&#65288;C&#65289;&#65306;Python &#23454;&#25112;</center><a class="anchor-link" href="#6-&gt;&gt;&gt;-&#38754;&#35797;&#20013;&#30340;&#31639;&#27861;&#39064;&#65288;C&#65289;&#65306;Python-&#23454;&#25112;">&#182;</a></h2><h3 id="&#31639;&#27861;&#39564;&#35777;&#65306;&#24352;&#21531;&#39062;--&#65307;-&#25253;&#21578;&#26085;&#26399;&#65306;2021.1.28"><center>&#31639;&#27861;&#39564;&#35777;&#65306;&#24352;&#21531;&#39062;  &#65307; &#25253;&#21578;&#26085;&#26399;&#65306;2021.1.28</center><a class="anchor-link" href="#&#31639;&#27861;&#39564;&#35777;&#65306;&#24352;&#21531;&#39062;--&#65307;-&#25253;&#21578;&#26085;&#26399;&#65306;2021.1.28">&#182;</a></h3><p><font color=blue><center>作者邮箱：zhang.jun.ying@outlook.com</center></font></p>
 <p><font color=blue><center>项目源代码、数据、自定义函数已上传GitHub：</center></font></p>
 <p><font color=blue><center>https://github.com/lotbear/Python-Financial-investment-strategy</center></font></p>
 
@@ -13087,9 +13087,9 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="&gt;&gt;&gt;-&#39064;&#19968;&#65306;&#21024;&#38500;-K-&#20010;&#25968;&#23383;&#21518;&#30340;&#26368;&#23567;&#20540;">&gt;&gt;&gt; &#39064;&#19968;&#65306;&#21024;&#38500; K &#20010;&#25968;&#23383;&#21518;&#30340;&#26368;&#23567;&#20540;<a class="anchor-link" href="#&gt;&gt;&gt;-&#39064;&#19968;&#65306;&#21024;&#38500;-K-&#20010;&#25968;&#23383;&#21518;&#30340;&#26368;&#23567;&#20540;">&#182;</a></h3><p>给出一个整数，从该整数中去掉 K 个数字，要求剩下的数字形成的新整数尽可能小。</p>
-<p><font color=red>》》》贪心算法思路：</font>将整数从高位数字向低位数字进行左右比较，若高位数字大于它右边的数字，那么删除该高位数字，经历 K 次删除即可得到最小值。</p>
-<p>该算法时间复杂度为<font color=blue> O（kn）</font></p>
+<h3 id="&gt;&gt;&gt;-&#39064;&#19968;&#65306;Bitmap-&#20301;&#22270;&#31639;&#27861;&#23454;&#29616;">&gt;&gt;&gt; &#39064;&#19968;&#65306;Bitmap &#20301;&#22270;&#31639;&#27861;&#23454;&#29616;<a class="anchor-link" href="#&gt;&gt;&gt;-&#39064;&#19968;&#65306;Bitmap-&#20301;&#22270;&#31639;&#27861;&#23454;&#29616;">&#182;</a></h3><p>在实际工作中，我们会用关系型数据库存（如 MySQL）储用户标签信息，但当我们用 SQL 语句检索多标签的用户统计数据时，SQL 语句就像面条一样长：</p>
+<p>eg: <font color=blue>Select cout(distinct Name) as 用户数 from table where Age='90后' and Occupation ='程序员' and Phone ='苹果' and ......; </font></p>
+<p>为了解决这种多标签的用户检索场景，我们可以将每个标签独立成一个 Bitmap 进行位图存储。</p>
 
 </div>
 </div>
@@ -13099,27 +13099,26 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">remove_k_digits</span><span class="p">(</span><span class="n">num</span><span class="p">,</span><span class="n">k</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">k</span><span class="p">):</span>
-        <span class="n">has_cut</span><span class="o">=</span><span class="kc">False</span>
-        <span class="c1"># 从左向右遍历，找到比自己右侧数字大的数字并删除</span>
-        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">num</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
-            <span class="k">if</span> <span class="n">num</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">&gt;</span><span class="n">num</span><span class="p">[</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]:</span>
-                <span class="n">num</span><span class="o">=</span><span class="n">num</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">j</span><span class="p">]</span><span class="o">+</span><span class="n">num</span><span class="p">[</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">num</span><span class="p">)]</span>
-                <span class="n">has_cut</span><span class="o">=</span><span class="kc">True</span>
-                <span class="k">break</span>
-        <span class="c1"># 如果没有找到要删除的数字，则删除最后一个数字</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="n">has_cut</span><span class="p">:</span>
-            <span class="n">num</span><span class="o">=</span><span class="n">num</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">num</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-    <span class="c1"># 清除整数左侧的数字 0</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">num</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
-        <span class="k">if</span> <span class="n">num</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">!=</span><span class="s1">&#39;0&#39;</span><span class="p">:</span>
-            <span class="k">break</span>
-        <span class="n">num</span><span class="o">=</span><span class="n">num</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">num</span><span class="p">)]</span>
-    <span class="c1"># 如果整数的所有数字都被删除了，直接返回 0</span>
-    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">num</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s1">&#39;0&#39;</span>
-    <span class="k">return</span> <span class="n">num</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">MyBitmap</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">size</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">user_ids</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">get_user_id_index</span><span class="p">(</span><span class="n">size</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">size</span><span class="o">=</span><span class="n">size</span>
+    
+    <span class="k">def</span> <span class="nf">get_bit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">bit_index</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">bit_index</span><span class="o">&lt;</span><span class="mi">0</span> <span class="ow">or</span> <span class="n">bit_index</span> <span class="o">&gt;</span><span class="bp">self</span><span class="o">.</span><span class="n">size</span><span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s1">&#39;超过 Bitmap 有效范围！&#39;</span><span class="p">)</span>
+        <span class="n">user_id_index</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">get_user_id_index</span><span class="p">(</span><span class="n">bit_index</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">user_ids</span><span class="p">[</span><span class="n">user_id_index</span><span class="p">]</span><span class="o">&amp;</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="n">bit_index</span><span class="p">))</span><span class="o">!=</span><span class="mi">0</span>
+    
+    <span class="k">def</span> <span class="nf">set_bit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">bit_index</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">bit_index</span><span class="o">&lt;</span><span class="mi">0</span> <span class="ow">or</span> <span class="n">bit_index</span> <span class="o">&gt;</span><span class="bp">self</span><span class="o">.</span><span class="n">size</span><span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s1">&#39;超过 Bitmap 有效范围！&#39;</span><span class="p">)</span>
+        <span class="n">user_id_index</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">get_user_id_index</span><span class="p">(</span><span class="n">bit_index</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">user_ids</span><span class="p">[</span><span class="n">user_id_index</span><span class="p">]</span><span class="o">|=</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="n">bit_index</span><span class="p">)</span>
+        
+    <span class="k">def</span> <span class="nf">get_user_id_index</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">bit_index</span><span class="p">):</span>
+        <span class="c1"># 右移 6 位，相当于除以 64</span>
+        <span class="k">return</span> <span class="n">bit_index</span><span class="o">&gt;&gt;</span><span class="mi">6</span>
 </pre></div>
 
     </div>
@@ -13132,11 +13131,13 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;30200 删 1 个数字后的最小值：&#39;</span><span class="p">,</span><span class="n">remove_k_digits</span><span class="p">(</span><span class="s1">&#39;30200&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;10 删 2 个数字后的最小值：&#39;</span><span class="p">,</span><span class="n">remove_k_digits</span><span class="p">(</span><span class="s1">&#39;10&#39;</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;1527386 删 4 个数字后的最小值：&#39;</span><span class="p">,</span><span class="n">remove_k_digits</span><span class="p">(</span><span class="s1">&#39;1527386&#39;</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bitMap</span><span class="o">=</span><span class="n">MyBitmap</span><span class="p">(</span><span class="mi">128</span><span class="p">)</span>
+<span class="n">bitMap</span><span class="o">.</span><span class="n">set_bit</span><span class="p">(</span><span class="mi">126</span><span class="p">)</span>
+<span class="n">bitMap</span><span class="o">.</span><span class="n">set_bit</span><span class="p">(</span><span class="mi">16</span><span class="p">)</span>
+<span class="n">bitMap</span><span class="o">.</span><span class="n">set_bit</span><span class="p">(</span><span class="mi">75</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;该标签下是否存在 id = 126 的用户？&#39;</span><span class="p">,</span><span class="n">bitMap</span><span class="o">.</span><span class="n">get_bit</span><span class="p">(</span><span class="mi">126</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;该标签下是否存在 id = 18 的用户？&#39;</span><span class="p">,</span><span class="n">bitMap</span><span class="o">.</span><span class="n">get_bit</span><span class="p">(</span><span class="mi">18</span><span class="p">))</span>
 </pre></div>
 
     </div>
@@ -13153,11 +13154,8 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>30200 删 1 个数字后的最小值： 200
-
-10 删 2 个数字后的最小值： 0
-
-1527386 删 4 个数字后的最小值： 1236
+<pre>该标签下是否存在 id = 126 的用户？ True
+该标签下是否存在 id = 18 的用户？ False
 </pre>
 </div>
 </div>
@@ -13169,8 +13167,20 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><font color=red>》》》优化贪心算法：</font>每一轮比较高低位数字大小时，均基于上一次发现高位大于低位数字的位置开始，并优化字符串截取方法。以遍历数字作为外循环，以 K 作为内循环。</p>
-<p>优化算法的时间复杂度为<font color=blue> O（n）</font></p>
+<p><font color=blue> 将每个标签都以 Bitmap 存储，在进行多标签统计用户时，多个 Bitmap 进行交集 '&amp;' or 并集 '|'位运算</p>
+<p>非运算需要再给出一个全量用户的 Bitmap，然后进行异或运算 'XOR'&lt;/font&gt;</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="&gt;&gt;&gt;-&#39064;&#20108;&#65306;LRU&#65288;Least-Recently-Used&#65289;-&#31639;&#27861;&#24212;&#29992;">&gt;&gt;&gt; &#39064;&#20108;&#65306;LRU&#65288;Least Recently Used&#65289; &#31639;&#27861;&#24212;&#29992;<a class="anchor-link" href="#&gt;&gt;&gt;-&#39064;&#20108;&#65306;LRU&#65288;Least-Recently-Used&#65289;-&#31639;&#27861;&#24212;&#29992;">&#182;</a></h3><p>在实际工作中，为应对业务不断拓新，我们需要抽出一个用户系统，向各个业务系统提供用户的基本信息；</p>
+<p>如果每次检索用户信息，都是从数据库提取（如 MySQL），会影响访问性能，为此我们创建一个哈希表作为缓存，但随着用户数量激增，服务器内存消耗太快 ；</p>
+<p>此时需要使用 LRU 算法来管理内存，LRU 算法的基础是哈希链表，若调用户数据未在缓存中，则从数据库读取并插入哈希链表的最右侧，若查询的用户数据已在链表中，则该数据从原位置移动到链表最右侧；</p>
+<p>当哈希链表的总长度达到预定的阈值，新进一个用户缓存数据，就需要从链表的最左端剔除一个用户数据（很久没有调用过的用户数据）。</p>
+<p>虽然 Python 中的 collections.OrderedDict 已经对哈希链表做了很好的实现，我们还是自己再用代码简单实现一下：</p>
 
 </div>
 </div>
@@ -13180,30 +13190,86 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">remove_k_digits_v2</span><span class="p">(</span><span class="n">num</span><span class="p">,</span><span class="n">k</span><span class="p">):</span>
-    <span class="c1"># 新整数的最终长度=原整数长度-k</span>
-    <span class="n">new_length</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">num</span><span class="p">)</span><span class="o">-</span><span class="n">k</span>
-    <span class="c1"># 创建一个栈，用于接收所有数字</span>
-    <span class="n">stack</span><span class="o">=</span><span class="p">[]</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">num</span><span class="p">)):</span>
-        <span class="c1"># 遍历当前数字</span>
-        <span class="n">c</span><span class="o">=</span><span class="n">num</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-        <span class="c1"># 当栈顶数字大于遍历到当前数字时，栈顶数字出栈</span>
-        <span class="k">while</span> <span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">0</span> <span class="ow">and</span> <span class="n">stack</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">&gt;</span><span class="n">c</span> <span class="ow">and</span> <span class="n">k</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">:</span>
-            <span class="n">stack</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
-            <span class="n">k</span> <span class="o">-=</span><span class="mi">1</span>
-        <span class="c1"># 如果遇到数字 0，且栈为空，0 不入栈</span>
-        <span class="k">if</span> <span class="s1">&#39;0&#39;</span><span class="o">==</span><span class="n">c</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
-            <span class="n">new_length</span> <span class="o">-=</span><span class="mi">1</span>
-            <span class="k">if</span> <span class="n">new_length</span> <span class="o">&lt;=</span><span class="mi">0</span><span class="p">:</span>
-                <span class="k">return</span> <span class="s1">&#39;0&#39;</span>
-            <span class="k">continue</span>
-        <span class="c1"># 遍历到的当前数字入栈</span>
-        <span class="n">stack</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
-    <span class="c1"># 找到栈中第一个非零数字的位置，依次构建新的整数字符串</span>
-    <span class="k">if</span> <span class="n">new_length</span> <span class="o">&lt;=</span><span class="mi">0</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s1">&#39;0&#39;</span>
-    <span class="k">return</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">LRUCache</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">limit</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">limit</span> <span class="o">=</span> <span class="n">limit</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">hash</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">head</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">end</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
+        <span class="n">node</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">hash</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">node</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">refresh_node</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">node</span><span class="o">.</span><span class="n">value</span>
+
+    <span class="k">def</span> <span class="nf">put</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="n">node</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">hash</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">node</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="c1"># 如果key不存在，插入key-value</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">hash</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">limit</span><span class="p">:</span>
+                <span class="n">old_key</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">remove_node</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">head</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">hash</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">old_key</span><span class="p">)</span>
+            <span class="n">node</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">hash</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="n">node</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1"># 如果key存在，刷新key-value</span>
+            <span class="n">node</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="n">value</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">refresh_node</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">remove</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
+        <span class="n">node</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">hash</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">node</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">remove_node</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">hash</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">refresh_node</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">node</span><span class="p">):</span>
+        <span class="c1"># 如果访问的是尾节点，无需移动节点</span>
+        <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">end</span><span class="p">:</span>
+            <span class="k">return</span>
+        <span class="c1"># 移除节点</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">remove_node</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+        <span class="c1"># 重新插入节点</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">remove_node</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">node</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">head</span> <span class="ow">and</span> <span class="n">node</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">end</span><span class="p">:</span>
+            <span class="c1"># 移除唯一的节点</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">head</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">end</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">end</span><span class="p">:</span>
+            <span class="c1"># 移除节点</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">end</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">end</span><span class="o">.</span><span class="n">pre</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">end</span><span class="o">.</span><span class="n">next</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">head</span><span class="p">:</span>
+            <span class="c1"># 移除头节点</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">head</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">head</span><span class="o">.</span><span class="n">next</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">head</span><span class="o">.</span><span class="n">pre</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1"># 移除中间节点</span>
+            <span class="n">node</span><span class="o">.</span><span class="n">pre</span><span class="o">.</span><span class="n">next</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">pre</span>
+            <span class="n">node</span><span class="o">.</span><span class="n">next</span><span class="o">.</span><span class="n">pre</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">pre</span>
+        <span class="k">return</span> <span class="n">node</span><span class="o">.</span><span class="n">key</span>
+
+    <span class="k">def</span> <span class="nf">add_node</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">node</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">end</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">end</span><span class="o">.</span><span class="n">next</span> <span class="o">=</span> <span class="n">node</span>
+            <span class="n">node</span><span class="o">.</span><span class="n">pre</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">end</span>
+            <span class="n">node</span><span class="o">.</span><span class="n">next</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">end</span> <span class="o">=</span> <span class="n">node</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">head</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">head</span> <span class="o">=</span> <span class="n">node</span>
+
+
+<span class="k">class</span> <span class="nc">Node</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">key</span> <span class="o">=</span> <span class="n">key</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">pre</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">next</span> <span class="o">=</span> <span class="kc">None</span>
 </pre></div>
 
     </div>
@@ -13216,11 +13282,18 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;30200 删 1 个数字后的最小值：&#39;</span><span class="p">,</span><span class="n">remove_k_digits</span><span class="p">(</span><span class="s1">&#39;30200&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;10 删 2 个数字后的最小值：&#39;</span><span class="p">,</span><span class="n">remove_k_digits</span><span class="p">(</span><span class="s1">&#39;10&#39;</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;1527386 删 4 个数字后的最小值：&#39;</span><span class="p">,</span><span class="n">remove_k_digits</span><span class="p">(</span><span class="s1">&#39;1527386&#39;</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lruCache</span><span class="o">=</span><span class="n">LRUCache</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">lruCache</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="s1">&#39;001&#39;</span><span class="p">,</span><span class="s1">&#39;用户 1 信息&#39;</span><span class="p">)</span>
+<span class="n">lruCache</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="s1">&#39;002&#39;</span><span class="p">,</span><span class="s1">&#39;用户 2 信息&#39;</span><span class="p">)</span>
+<span class="n">lruCache</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="s1">&#39;003&#39;</span><span class="p">,</span><span class="s1">&#39;用户 3 信息&#39;</span><span class="p">)</span>
+<span class="n">lruCache</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="s1">&#39;004&#39;</span><span class="p">,</span><span class="s1">&#39;用户 4 信息&#39;</span><span class="p">)</span>
+<span class="n">lruCache</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="s1">&#39;005&#39;</span><span class="p">,</span><span class="s1">&#39;用户 5 信息&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">lruCache</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;003&#39;</span><span class="p">))</span>
+
+<span class="n">lruCache</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="s1">&#39;004&#39;</span><span class="p">,</span><span class="s1">&#39;用户 4 信息更新&#39;</span><span class="p">)</span>
+<span class="n">lruCache</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="s1">&#39;005&#39;</span><span class="p">,</span><span class="s1">&#39;用户 6 信息&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">lruCache</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;001&#39;</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">lruCache</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;006&#39;</span><span class="p">))</span>
 </pre></div>
 
     </div>
@@ -13237,11 +13310,9 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>30200 删 1 个数字后的最小值： 200
-
-10 删 2 个数字后的最小值： 0
-
-1527386 删 4 个数字后的最小值： 1236
+<pre>用户 3 信息
+用户 1 信息
+None
 </pre>
 </div>
 </div>
@@ -13253,12 +13324,17 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="&gt;&gt;&gt;-&#39064;&#20108;&#65306;&#25214;&#21040;&#20004;&#20010;&#21319;&#24207;&#25968;&#32452;&#21512;&#24182;&#21518;&#30340;&#20013;&#20301;&#25968;">&gt;&gt;&gt; &#39064;&#20108;&#65306;&#25214;&#21040;&#20004;&#20010;&#21319;&#24207;&#25968;&#32452;&#21512;&#24182;&#21518;&#30340;&#20013;&#20301;&#25968;<a class="anchor-link" href="#&gt;&gt;&gt;-&#39064;&#20108;&#65306;&#25214;&#21040;&#20004;&#20010;&#21319;&#24207;&#25968;&#32452;&#21512;&#24182;&#21518;&#30340;&#20013;&#20301;&#25968;">&#182;</a></h3><p>两个升序数组长度可不相同，在合并后形成一个新的升序数组，找到新数组的中位数。</p>
-<p>若新数组长度为奇数，则居中的一位为中位数，若新数组长度为偶数，则居中的两个数的均值为中位数。</p>
-<p><font color=blue>设定条件：</font>两个有序数组 A、B 均可分为两部分，前半部分贡献给新数组的前半部分，后半部分贡献给新数组的后半部分，两个数组各自的分界点为 i、j，数组长度为 m、n。</p>
-<p>则<font color=blue> i+j = ( m+n+1 ) / 2   ；  max（ A[ i-1 ] , B[ j-1 ] ）<= min（A[ i ],B[ j ]）</font></p>
-<p>a ) 若新数组长度为偶数，中位数为<font color=red> Max（ A[ i-1 ] , B[ j-1 ] ）</font></p>
-<p>b ) 若新数组长度为奇数，中位数为<font color=red> ( Max( A[ i-1 ] , B[ j-1 ] ) + Min( A[ i ], B[ j ] ) ) / 2</font></p>
+<p><font color=blue>对于用户系统的需求，可以用缓存数据库 Redis 实现，Redis 底层也实现了类似 LRU 的回收算法。</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="&gt;&gt;&gt;-&#39064;&#19977;&#65306;&#38543;&#26426;&#32418;&#21253;&#31639;&#27861;">&gt;&gt;&gt; &#39064;&#19977;&#65306;&#38543;&#26426;&#32418;&#21253;&#31639;&#27861;<a class="anchor-link" href="#&gt;&gt;&gt;-&#39064;&#19977;&#65306;&#38543;&#26426;&#32418;&#21253;&#31639;&#27861;">&#182;</a></h3><p>1.所有人抢到的金额之和要等于红包金额</p>
+<p>2.保证红包拆分的金额尽可能均匀分布，不能出现严重的两极分化现象</p>
+<p>思路：把每次红包随机金额的上限定为剩余人均金额的 2 倍。</p>
 
 </div>
 </div>
@@ -13268,42 +13344,23 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">find_median_sorted_array</span><span class="p">(</span><span class="n">arrayA</span><span class="p">,</span><span class="n">arrayB</span><span class="p">):</span>
-    <span class="n">m</span><span class="p">,</span><span class="n">n</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">arrayA</span><span class="p">),</span><span class="nb">len</span><span class="p">(</span><span class="n">arrayB</span><span class="p">)</span>
-    <span class="c1"># 如果数组 A 的长度大于等于数组 B 的长度，则交换数组</span>
-    <span class="k">if</span> <span class="n">m</span><span class="o">&gt;</span><span class="n">n</span><span class="p">:</span>
-        <span class="n">arrayA</span><span class="p">,</span> <span class="n">arrayB</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">n</span> <span class="o">=</span><span class="n">arrayB</span><span class="p">,</span> <span class="n">arrayA</span><span class="p">,</span> <span class="n">n</span><span class="p">,</span> <span class="n">m</span>
-    <span class="k">if</span> <span class="n">n</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="ne">ValueError</span>
-    <span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">half_len</span> <span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="p">(</span><span class="n">m</span><span class="o">+</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">//</span><span class="mi">2</span>
-    <span class="k">while</span> <span class="n">start</span> <span class="o">&lt;=</span> <span class="n">end</span><span class="p">:</span>
-        <span class="n">i</span><span class="o">=</span><span class="p">(</span><span class="n">start</span><span class="o">+</span><span class="n">end</span><span class="p">)</span><span class="o">//</span><span class="mi">2</span> <span class="c1"># 二分法定位 i</span>
-        <span class="n">j</span><span class="o">=</span><span class="n">half_len</span><span class="o">-</span><span class="n">i</span>
-        <span class="k">if</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">m</span> <span class="ow">and</span> <span class="n">arrayB</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">&gt;</span><span class="n">arrayA</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
-            <span class="c1"># i 偏小，需要右移</span>
-            <span class="n">start</span><span class="o">=</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span>
-        <span class="k">elif</span> <span class="n">i</span><span class="o">&gt;</span><span class="mi">0</span> <span class="ow">and</span> <span class="n">arrayA</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">&gt;</span><span class="n">arrayB</span><span class="p">[</span><span class="n">j</span><span class="p">]:</span>
-            <span class="c1"># i 偏大需要左移</span>
-            <span class="n">end</span><span class="o">=</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="c1"># i 刚好合适，或 i 已达到数组边界</span>
-            <span class="k">if</span> <span class="n">i</span> <span class="o">==</span><span class="mi">0</span><span class="p">:</span>
-                <span class="n">max_of_left</span><span class="o">=</span><span class="n">arrayB</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-            <span class="k">elif</span> <span class="n">j</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
-                <span class="n">max_of_left</span><span class="o">=</span><span class="n">arrayA</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="n">max_of_left</span><span class="o">=</span><span class="nb">max</span><span class="p">(</span><span class="n">arrayA</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span><span class="n">arrayB</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">m</span><span class="o">+</span><span class="n">n</span><span class="p">)</span><span class="o">%</span><span class="k">2</span>==1:
-                <span class="c1"># 如果大数组的长度是奇数，中位数就是左半部分的最大值</span>
-                <span class="k">return</span> <span class="n">max_of_left</span>
-            <span class="k">if</span> <span class="n">i</span><span class="o">==</span><span class="n">m</span><span class="p">:</span>
-                <span class="n">min_of_right</span><span class="o">=</span><span class="n">arrayB</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
-            <span class="k">elif</span> <span class="n">j</span><span class="o">==</span><span class="n">n</span><span class="p">:</span>
-                <span class="n">min_of_right</span><span class="o">=</span><span class="n">arrayA</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="n">min_of_right</span><span class="o">=</span><span class="nb">min</span><span class="p">(</span><span class="n">arrayA</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">arrayB</span><span class="p">[</span><span class="n">j</span><span class="p">])</span>
-            <span class="c1"># 如果大数组的长度是偶数，则取左侧最大值和右侧最小值的平均</span>
-            <span class="k">return</span> <span class="p">(</span><span class="n">max_of_left</span><span class="o">+</span><span class="n">min_of_right</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+<span class="c1"># random.uniform 可随机生成浮点数，但精度无法控制，可能导致红包总金额出现误差</span>
+<span class="c1"># 我们选择 ranint 作为随机函数，为了最终生成带两位小数的红包金额</span>
+<span class="c1"># 我们先将 total_amount*100 ，输出时再 my_amount/100</span>
+
+<span class="k">def</span> <span class="nf">divide_red_package</span><span class="p">(</span><span class="n">total_amount</span><span class="p">,</span> <span class="n">total_people_num</span><span class="p">):</span>
+    <span class="n">amount_list</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">rest_amount</span> <span class="o">=</span> <span class="n">total_amount</span><span class="o">*</span><span class="mi">100</span>
+    <span class="n">rest_people_num</span> <span class="o">=</span> <span class="n">total_people_num</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">total_people_num</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="c1"># 随机范围：[1，剩余人均金额的两倍)，左闭右开</span>
+        <span class="n">amount</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="nb">int</span><span class="p">(</span><span class="n">rest_amount</span><span class="o">/</span><span class="n">rest_people_num</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+        <span class="n">rest_amount</span> <span class="o">-=</span> <span class="n">amount</span>
+        <span class="n">rest_people_num</span> <span class="o">-=</span> <span class="mi">1</span>
+        <span class="n">amount_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">amount</span><span class="p">)</span>
+    <span class="n">amount_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rest_amount</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">amount_list</span>
 </pre></div>
 
     </div>
@@ -13316,12 +13373,11 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_arrayA</span><span class="o">=</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">13</span><span class="p">]</span>
-<span class="n">my_arrayB</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">17</span><span class="p">,</span><span class="mi">28</span><span class="p">]</span>
-<span class="n">new_array</span><span class="o">=</span><span class="n">my_arrayA</span><span class="o">+</span><span class="n">my_arrayB</span>
-<span class="n">new_array</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;合并新数组:&#39;</span><span class="p">,</span><span class="n">new_array</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;新数组中位数:&#39;</span><span class="p">,</span><span class="n">find_median_sorted_array</span><span class="p">(</span><span class="n">my_arrayA</span><span class="p">,</span><span class="n">my_arrayB</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_amount_list</span> <span class="o">=</span> <span class="n">divide_red_package</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;总红包金额: </span><span class="si">%.2f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">my_amount_list</span><span class="p">)</span><span class="o">/</span><span class="mi">100</span><span class="p">),</span><span class="s1">&#39;元&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;=&#39;</span><span class="o">*</span><span class="mi">50</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">my_amount</span> <span class="ow">in</span> <span class="n">my_amount_list</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;抢到金额: </span><span class="si">%.2f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">my_amount</span><span class="o">/</span><span class="mi">100</span><span class="p">),</span><span class="s1">&#39;元&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13338,8 +13394,18 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>合并新数组: [1, 2, 3, 5, 7, 9, 10, 13, 17, 28]
-新数组中位数: 8.0
+<pre>总红包金额: 99.00 元
+==================================================
+抢到金额: 14.07 元
+抢到金额: 1.36 元
+抢到金额: 10.71 元
+抢到金额: 9.59 元
+抢到金额: 7.99 元
+抢到金额: 16.08 元
+抢到金额: 14.92 元
+抢到金额: 12.40 元
+抢到金额: 3.43 元
+抢到金额: 8.45 元
 </pre>
 </div>
 </div>
@@ -13351,23 +13417,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="&gt;&gt;&gt;-&#39064;&#19977;&#65306;&#27714;&#35299;&#37329;&#30719;&#25496;&#37329;&#35268;&#21010;&#38382;&#39064;">&gt;&gt;&gt; &#39064;&#19977;&#65306;&#27714;&#35299;&#37329;&#30719;&#25496;&#37329;&#35268;&#21010;&#38382;&#39064;<a class="anchor-link" href="#&gt;&gt;&gt;-&#39064;&#19977;&#65306;&#27714;&#35299;&#37329;&#30719;&#25496;&#37329;&#35268;&#21010;&#38382;&#39064;">&#182;</a></h3><p>与“背包问题”类似，金矿掘金规划问题要求解决用工数和金矿存储量的动态规划问题，一般的贪心算法只能得到局部最优解，不能得到全局最优解。</p>
-<p>动态规划要求我们把复杂问题简化成较小的子问题，再从简单的子问题自底向上一步步递推，最终得到复杂问题的最优解。</p>
-<p>》》》分解具体问题思路：</p>
-<p><font color=blue>金矿数量：n ; 工人数量: w</p>
-<p>不同金矿大小：数组 g[ ] ; 不同金矿需要工人数：数组p[ ]</p>
-<p>n 个金矿，w 个工人开采的最优收益函数：F（n, w）&lt;/font&gt;</p>
-<p>a ) 当金矿数为 0 或工人数为 0：<font color=red> F（n, w）= 0</font> ( n=0 或 w=0 )</p>
-<p>b ) 当剩余工人数不够开采当前金矿时，只有一种最优子结构：</p>
-<center><font color=red>F（n, w）= F（n-1, w）</font></center><center>( n>=1, w< p[ n-1 ] ) </center><p>c ) 其他情况下，掘金规划具有两种最优子结构（不挖当前金矿 或 挖当前金矿）</p>
-<center><font color=red>F（n, w）= max( F（n-1, w）, F（n-1, w-p[ n-1 ]）+ g[ n-1 ])</font></center><center>( n>=1, w>= p[ n-1 ] ) </center>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="&#29256;&#26412;&#19968;-:-&#26102;&#38388;&#22797;&#26434;&#24230;-O&#65288;-2^n-&#65289;">&#29256;&#26412;&#19968; : &#26102;&#38388;&#22797;&#26434;&#24230; O&#65288; 2^n &#65289;<a class="anchor-link" href="#&#29256;&#26412;&#19968;-:-&#26102;&#38388;&#22797;&#26434;&#24230;-O&#65288;-2^n-&#65289;">&#182;</a></h3>
+<p>番外：对多个list的对应元素求和</p>
+
 </div>
 </div>
 </div>
@@ -13376,22 +13427,38 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_best_gold_mining</span><span class="p">(</span><span class="n">w</span><span class="p">,</span><span class="n">n</span><span class="p">,</span><span class="n">p</span><span class="o">=</span><span class="p">[],</span><span class="n">g</span><span class="o">=</span><span class="p">[]):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    :param w: 工人数量</span>
-<span class="sd">    :param n: 可选金矿数量</span>
-<span class="sd">    :param p: 金矿开采所需工人数量</span>
-<span class="sd">    :param g: 金矿大小（储量 kg）</span>
-<span class="sd">    :return: 最优收益</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">if</span> <span class="n">w</span><span class="o">==</span><span class="mi">0</span> <span class="ow">or</span> <span class="n">n</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
-        <span class="k">return</span> <span class="mi">0</span>
-    <span class="k">if</span> <span class="n">w</span> <span class="o">&lt;</span> <span class="n">p</span><span class="p">[</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
-        <span class="k">return</span> <span class="n">get_best_gold_mining</span><span class="p">(</span><span class="n">w</span><span class="p">,</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">p</span><span class="p">,</span><span class="n">g</span><span class="p">)</span>
-    <span class="k">return</span> <span class="nb">max</span><span class="p">(</span><span class="n">get_best_gold_mining</span><span class="p">(</span><span class="n">w</span><span class="p">,</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">p</span><span class="p">,</span><span class="n">g</span><span class="p">),</span><span class="n">get_best_gold_mining</span><span class="p">(</span><span class="n">w</span><span class="o">-</span><span class="n">p</span><span class="p">[</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">p</span><span class="p">,</span><span class="n">g</span><span class="p">)</span><span class="o">+</span><span class="n">g</span><span class="p">[</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">list_add</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">):</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">a</span><span class="p">)):</span>
+        <span class="n">c</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">+</span><span class="n">b</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">c</span>
+ 
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">list_add</span><span class="p">(</span><span class="n">list_add</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">),</span><span class="n">c</span><span class="p">))</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[6, 9, 12]
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -13401,7 +13468,11 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;最优掘金收益:&#39;</span><span class="p">,</span><span class="n">get_best_gold_mining</span><span class="p">(</span><span class="n">w</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="n">n</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="n">p</span><span class="o">=</span><span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">],</span><span class="n">g</span><span class="o">=</span><span class="p">[</span><span class="mi">200</span><span class="p">,</span><span class="mi">300</span><span class="p">,</span><span class="mi">350</span><span class="p">,</span><span class="mi">400</span><span class="p">,</span><span class="mi">500</span><span class="p">]),</span><span class="s1">&#39;kg 黄金&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
+<span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">])</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="o">+</span><span class="n">c</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13418,7 +13489,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>最优掘金收益: 900 kg 黄金
+<pre>[ 6  9 12]
 </pre>
 </div>
 </div>
@@ -13426,56 +13497,17 @@ div#notebook {
 </div>
 </div>
 
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="&#29256;&#26412;&#20108;&#65306;&#26102;&#38388;&#22797;&#26434;&#24230;-&amp;-&#31354;&#38388;&#22797;&#26434;&#24230;-O&#65288;nw&#65289;">&#29256;&#26412;&#20108;&#65306;&#26102;&#38388;&#22797;&#26434;&#24230; &amp; &#31354;&#38388;&#22797;&#26434;&#24230; O&#65288;nw&#65289;<a class="anchor-link" href="#&#29256;&#26412;&#20108;&#65306;&#26102;&#38388;&#22797;&#26434;&#24230;-&amp;-&#31354;&#38388;&#22797;&#26434;&#24230;-O&#65288;nw&#65289;">&#182;</a></h3><p>在版本一的基础上，以表格存储规划方案来剔除重复计算</p>
-
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># List 演示</span>
-
-<span class="k">def</span> <span class="nf">get_best_gold_mining_v2</span><span class="p">(</span><span class="n">w</span><span class="p">,</span><span class="n">n</span><span class="p">,</span><span class="n">p</span><span class="o">=</span><span class="p">[],</span><span class="n">g</span><span class="o">=</span><span class="p">[]):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    :param w: 工人数量</span>
-<span class="sd">    :param n: 可选金矿数量</span>
-<span class="sd">    :param p: 金矿开采所需工人数量</span>
-<span class="sd">    :param g: 金矿大小（储量 kg）</span>
-<span class="sd">    :return: 最优收益</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">result_table</span><span class="o">=</span><span class="p">[[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">w</span><span class="o">+</span><span class="mi">1</span><span class="p">)]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">g</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">)]</span>
-    <span class="c1"># 填充表格</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">g</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">w</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-            <span class="k">if</span> <span class="n">j</span><span class="o">&lt;</span><span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
-                <span class="n">result_table</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span><span class="o">=</span><span class="n">result_table</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="p">]</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="n">result_table</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span><span class="o">=</span><span class="nb">max</span><span class="p">(</span><span class="n">result_table</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="p">],</span><span class="n">result_table</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span><span class="o">+</span><span class="n">g</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;金矿开采规划表：&#39;</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">g</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">result_table</span><span class="p">[</span><span class="n">k</span><span class="p">])</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;=&#39;</span><span class="o">*</span><span class="mi">50</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">result_table</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">g</span><span class="p">)][</span><span class="n">w</span><span class="p">]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;最优掘金收益:&#39;</span><span class="p">,</span><span class="n">get_best_gold_mining_v2</span><span class="p">(</span><span class="n">w</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="n">n</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="n">p</span><span class="o">=</span><span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">],</span><span class="n">g</span><span class="o">=</span><span class="p">[</span><span class="mi">200</span><span class="p">,</span><span class="mi">300</span><span class="p">,</span><span class="mi">350</span><span class="p">,</span><span class="mi">400</span><span class="p">,</span><span class="mi">500</span><span class="p">]),</span><span class="s1">&#39;kg 黄金&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
+<span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
+<span class="n">c</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">([</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">],</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">0</span><span class="p">))</span>
 </pre></div>
 
     </div>
@@ -13492,446 +13524,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>金矿开采规划表：
-[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-[0, 0, 0, 200, 200, 200, 200, 200, 200, 200, 200]
-[0, 0, 0, 200, 300, 300, 300, 500, 500, 500, 500]
-[0, 0, 0, 350, 350, 350, 550, 650, 650, 650, 850]
-[0, 0, 0, 350, 350, 400, 550, 650, 750, 750, 850]
-[0, 0, 0, 350, 350, 500, 550, 650, 850, 850, 900]
-==================================================
-最优掘金收益: 900 kg 黄金
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># pandas 演示</span>
-
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="k">def</span> <span class="nf">get_best_gold_mining_v2</span><span class="p">(</span><span class="n">w</span><span class="p">,</span><span class="n">n</span><span class="p">,</span><span class="n">p</span><span class="o">=</span><span class="p">[],</span><span class="n">g</span><span class="o">=</span><span class="p">[]):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    :param w: 工人数量</span>
-<span class="sd">    :param n: 可选金矿数量</span>
-<span class="sd">    :param p: 金矿开采所需工人数量</span>
-<span class="sd">    :param g: 金矿大小（储量 kg）</span>
-<span class="sd">    :return: 最优收益</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">result_table</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">&#39;各金矿开采效率&#39;</span><span class="p">:[</span><span class="s1">&#39;0kg黄金/0人&#39;</span><span class="p">,</span><span class="s1">&#39;200kg黄金/3人&#39;</span><span class="p">,</span><span class="s1">&#39;300kg黄金/4人&#39;</span><span class="p">,</span>
-                                                <span class="s1">&#39;350kg黄金/3人&#39;</span><span class="p">,</span><span class="s1">&#39;400kg黄金/5人&#39;</span><span class="p">,</span><span class="s1">&#39;500kg黄金/5人&#39;</span><span class="p">],</span>
-                            <span class="s1">&#39;0个工人&#39;</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">]),</span>
-                            <span class="s1">&#39;1个工人&#39;</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">]),</span>
-                            <span class="s1">&#39;2个工人&#39;</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">]),</span>
-                            <span class="s1">&#39;3个工人&#39;</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">]),</span>
-                            <span class="s1">&#39;4个工人&#39;</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">]),</span>
-                            <span class="s1">&#39;5个工人&#39;</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">]),</span>
-                            <span class="s1">&#39;6个工人&#39;</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">]),</span>
-                            <span class="s1">&#39;7个工人&#39;</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">]),</span>
-                            <span class="s1">&#39;8个工人&#39;</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">]),</span>
-                            <span class="s1">&#39;9个工人&#39;</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">]),</span>
-                            <span class="s1">&#39;10个工人&#39;</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">])})</span>
-    <span class="c1"># 填充表格</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">w</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-            <span class="k">if</span> <span class="n">j</span><span class="o">&lt;</span><span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
-                <span class="n">result_table</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="n">result_table</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="n">result_table</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="nb">max</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">result_table</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]),</span>
-                                           <span class="nb">int</span><span class="p">(</span><span class="n">result_table</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="o">-</span><span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]])</span><span class="o">+</span><span class="n">g</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
-    <span class="k">return</span> <span class="n">result_table</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;最优掘金收益:&#39;</span><span class="p">,</span><span class="n">get_best_gold_mining_v2</span><span class="p">(</span><span class="n">w</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="n">n</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="n">p</span><span class="o">=</span><span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">],</span>
-                                        <span class="n">g</span><span class="o">=</span><span class="p">[</span><span class="mi">200</span><span class="p">,</span><span class="mi">300</span><span class="p">,</span><span class="mi">350</span><span class="p">,</span><span class="mi">400</span><span class="p">,</span><span class="mi">500</span><span class="p">])</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">11</span><span class="p">],</span><span class="s1">&#39;kg 黄金&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;=&#39;</span><span class="o">*</span><span class="mi">50</span><span class="p">)</span>
-<span class="n">get_best_gold_mining_v2</span><span class="p">(</span><span class="n">w</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="n">n</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="n">p</span><span class="o">=</span><span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">],</span><span class="n">g</span><span class="o">=</span><span class="p">[</span><span class="mi">200</span><span class="p">,</span><span class="mi">300</span><span class="p">,</span><span class="mi">350</span><span class="p">,</span><span class="mi">400</span><span class="p">,</span><span class="mi">500</span><span class="p">])</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>最优掘金收益: 900.0 kg 黄金
-==================================================
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[12]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>各金矿开采效率</th>
-      <th>0个工人</th>
-      <th>1个工人</th>
-      <th>2个工人</th>
-      <th>3个工人</th>
-      <th>4个工人</th>
-      <th>5个工人</th>
-      <th>6个工人</th>
-      <th>7个工人</th>
-      <th>8个工人</th>
-      <th>9个工人</th>
-      <th>10个工人</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>0kg黄金/0人</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>200kg黄金/3人</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>200.0</td>
-      <td>200.0</td>
-      <td>200.0</td>
-      <td>200.0</td>
-      <td>200.0</td>
-      <td>200.0</td>
-      <td>200.0</td>
-      <td>200.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>300kg黄金/4人</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>200.0</td>
-      <td>300.0</td>
-      <td>300.0</td>
-      <td>300.0</td>
-      <td>500.0</td>
-      <td>500.0</td>
-      <td>500.0</td>
-      <td>500.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>350kg黄金/3人</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>350.0</td>
-      <td>350.0</td>
-      <td>350.0</td>
-      <td>550.0</td>
-      <td>650.0</td>
-      <td>650.0</td>
-      <td>650.0</td>
-      <td>850.0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>400kg黄金/5人</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>350.0</td>
-      <td>350.0</td>
-      <td>400.0</td>
-      <td>550.0</td>
-      <td>650.0</td>
-      <td>750.0</td>
-      <td>750.0</td>
-      <td>850.0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>500kg黄金/5人</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>350.0</td>
-      <td>350.0</td>
-      <td>500.0</td>
-      <td>550.0</td>
-      <td>650.0</td>
-      <td>850.0</td>
-      <td>850.0</td>
-      <td>900.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="&#29256;&#26412;&#19977;&#65306;&#26102;&#38388;&#22797;&#26434;&#24230;-O&#65288;n&#65289;">&#29256;&#26412;&#19977;&#65306;&#26102;&#38388;&#22797;&#26434;&#24230; O&#65288;n&#65289;<a class="anchor-link" href="#&#29256;&#26412;&#19977;&#65306;&#26102;&#38388;&#22797;&#26434;&#24230;-O&#65288;n&#65289;">&#182;</a></h3><p>基于版本二，剔除表中不需要保存的行数据</p>
-<p>计算下一行时，从右往左统计，把旧的数据替换掉</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_best_gold_mining_v3</span><span class="p">(</span><span class="n">w</span><span class="p">,</span><span class="n">n</span><span class="p">,</span><span class="n">p</span><span class="o">=</span><span class="p">[],</span><span class="n">g</span><span class="o">=</span><span class="p">[]):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    :param w: 工人数量</span>
-<span class="sd">    :param n: 可选金矿数量</span>
-<span class="sd">    :param p: 金矿开采所需工人数量</span>
-<span class="sd">    :param g: 金矿大小（储量 kg）</span>
-<span class="sd">    :return: 最优收益</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="c1"># 创建当前结果</span>
-    <span class="n">results</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="p">(</span><span class="n">w</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
-    <span class="c1"># 填充一维数组</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">g</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">w</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
-            <span class="k">if</span> <span class="n">j</span><span class="o">&gt;=</span><span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
-                <span class="n">results</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">=</span><span class="nb">max</span><span class="p">(</span><span class="n">results</span><span class="p">[</span><span class="n">j</span><span class="p">],</span><span class="n">results</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span><span class="o">+</span><span class="n">g</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;规划求解过程：&#39;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">results</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;=&#39;</span><span class="o">*</span><span class="mi">50</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">results</span><span class="p">[</span><span class="n">w</span><span class="p">]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;最优掘金收益:&#39;</span><span class="p">,</span><span class="n">get_best_gold_mining_v3</span><span class="p">(</span><span class="n">w</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="n">n</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="n">p</span><span class="o">=</span><span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">],</span>
-                                        <span class="n">g</span><span class="o">=</span><span class="p">[</span><span class="mi">200</span><span class="p">,</span><span class="mi">300</span><span class="p">,</span><span class="mi">350</span><span class="p">,</span><span class="mi">400</span><span class="p">,</span><span class="mi">500</span><span class="p">]),</span><span class="s1">&#39;kg 黄金&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>规划求解过程：
-[0, 0, 0, 350, 350, 500, 550, 650, 850, 850, 900]
-==================================================
-最优掘金收益: 900 kg 黄金
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="&gt;&gt;&gt;-&#39064;&#22235;&#65306;&#23547;&#25214;&#32570;&#22833;&#30340;&#25972;&#25968;">&gt;&gt;&gt; &#39064;&#22235;&#65306;&#23547;&#25214;&#32570;&#22833;&#30340;&#25972;&#25968;<a class="anchor-link" href="#&gt;&gt;&gt;-&#39064;&#22235;&#65306;&#23547;&#25214;&#32570;&#22833;&#30340;&#25972;&#25968;">&#182;</a></h3><p>a ) 在一个无序的整数数组 A 中，数值范围 B(start,stop)，怎么找到属于数值范围 B 但数组 A 中缺失的整数？</p>
-<p>思路：创建一个哈希表，key=(start,stop），遍历整个数组 A，每读到一个整数，就定位哈希表中的 key，然后删除这个 key，最终剩余的 key 即为缺失的整数。</p>
-<p>该算法的时间复杂度 &amp; 空间复杂度 均为 O（n）</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">find_miss_int</span><span class="p">(</span><span class="n">start</span><span class="p">,</span><span class="n">stop</span><span class="p">,</span><span class="n">my_list</span><span class="o">=</span><span class="p">[]):</span>
-    <span class="n">key</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">start</span><span class="p">,</span><span class="n">stop</span><span class="o">+</span><span class="mi">1</span><span class="p">))</span>
-    <span class="n">no_value</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="nb">len</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
-    <span class="n">hash_table</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">key</span><span class="p">,</span><span class="n">no_value</span><span class="p">))</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">my_list</span><span class="p">)):</span>
-        <span class="k">if</span> <span class="n">my_list</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">hash_table</span><span class="p">):</span>
-            <span class="n">hash_table</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">my_list</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
-    <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">hash_table</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;缺失的整数为：&#39;</span><span class="p">,</span><span class="n">find_miss_int</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">stop</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span><span class="n">my_list</span><span class="o">=</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">]))</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>缺失的整数为： [6, 8]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>b ) 在一个无序数组里 A 中，只有 2 个整数出现了奇数次，其他整数均出现了偶数次，怎么找到这 2 个出现奇数次的整数？</p>
-<p>思路：用异或运算（XOR）进行位运算时，相同位得 0，不同位得 1。</p>
-<p>把这两个奇数次的整数命名为 j 和 k，遍历整个数组，依次做异或运算，得到的最终结果是 j 和 k 的异或运算值（偶数次整数异或运算值为0）。</p>
-<p>查看 j 和 k 的异或运算值，从后向前第一个非 0 位说明这两个整数的二进制数在此，一个为 0，一个为 1。</p>
-<p>再将整体数组分为该‘二进制分歧位’上，为 0 派，为 1 派，这样两个整数 j 和 k 就被单独分在两个派别中，最后两个派别分别进行一次异或运算，找到这两个奇数次整数 j 和 k。</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">find_lost_num</span><span class="p">(</span><span class="n">array</span><span class="o">=</span><span class="p">[]):</span>
-    <span class="c1"># 用于存储两个出现奇数次的整数</span>
-    <span class="n">result</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
-    <span class="c1"># 第一次整体异或</span>
-    <span class="n">xor_result</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">array</span><span class="p">)):</span>
-        <span class="n">xor_result</span> <span class="o">^=</span> <span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-    <span class="c1"># 如果异或结果为0，说明输入数组不符合题目</span>
-    <span class="k">if</span> <span class="n">xor_result</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="ne">ValueError</span>
-    <span class="c1"># 确定两个整数的不同位，以此来做分组</span>
-    <span class="n">separator</span> <span class="o">=</span> <span class="mi">1</span>
-    <span class="k">while</span> <span class="mi">0</span> <span class="o">==</span> <span class="p">(</span><span class="n">xor_result</span> <span class="o">&amp;</span> <span class="n">separator</span><span class="p">):</span>
-        <span class="n">separator</span> <span class="o">&lt;&lt;=</span> <span class="mi">1</span>
-    <span class="c1"># 第二次分组异或</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">array</span><span class="p">)):</span>
-        <span class="k">if</span> <span class="mi">0</span> <span class="o">==</span> <span class="p">(</span><span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&amp;</span> <span class="n">separator</span><span class="p">):</span>
-            <span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">^=</span> <span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">result</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">^=</span> <span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-    <span class="k">return</span> <span class="n">result</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_array</span><span class="o">=</span><span class="nb">list</span><span class="p">([</span><span class="mi">4</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;列表中出现奇数次的两个整数;&#39;</span><span class="p">,</span><span class="n">find_lost_num</span><span class="p">(</span><span class="n">my_array</span><span class="p">))</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>列表中出现奇数次的两个整数; [5, 3]
+<pre>[ 6  9 12]
 </pre>
 </div>
 </div>
