@@ -28,7 +28,9 @@
 
 11.《Spark + MySQL + Python 数据库应用》   
 
-12.《Python 数据结构+算法练习》
+12.《Python 数据结构+算法练习》   
+
+13.《房地产投资决策（价格预测）》     
 
 知乎专栏：超预测时代   
 https://www.zhihu.com/column/c_189274975     
