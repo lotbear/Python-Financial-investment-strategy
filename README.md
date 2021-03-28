@@ -1,6 +1,8 @@
 # Python-Financial-investment-strategy
 
-作者：张君颖，邮箱：zhang.jun.ying@outlook.com，知乎：lotbear      
+作者：张君颖, 个人项目作品展：https://lotbear.com/        
+
+邮箱：zhang.jun.ying@outlook.com       
 
 该项目将持续更新‘ 大数据应用策略 ’的代码实证。     
 
