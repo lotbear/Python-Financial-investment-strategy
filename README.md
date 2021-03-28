@@ -1,6 +1,6 @@
 # Python-Financial-investment-strategy
 
-作者：张君颖, 个人项目作品展：https://lotbear.com/        
+作者：张君颖, 个人项目作品展：https://lotbear.com        
 
 邮箱：zhang.jun.ying@outlook.com       
 
